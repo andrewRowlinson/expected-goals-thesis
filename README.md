@@ -1,6 +1,9 @@
 # expected-goals-thesis
 A repository for analysis on Expected Goals using StatsBomb and Wyscout data.
 
+# StatsBomb data
+This repository assumes that the [StatsBomb open-data](https://github.com/statsbomb/open-data) has already been cloned to a local directory.
+
 # To run the notebooks
 All of the notebooks can be run from an [Anaconda](https://www.anaconda.com/products/individual) environment.
 
