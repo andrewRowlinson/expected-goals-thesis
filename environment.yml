@@ -1,0 +1,20 @@
+name: expected-goals
+channels:
+  - anaconda
+dependencies:
+  - jupyter
+  - pandas
+  - scipy
+  - seaborn
+  - beautifulsoup4
+  - pyarrow
+  - scikit-learn
+  - pillow
+  - openpyxl
+  - pillow
+  - shapely
+  - requests
+  - pip
+  - pip:
+      - mplsoccer
+      - lightgbm
