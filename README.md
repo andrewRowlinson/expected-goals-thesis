@@ -28,4 +28,4 @@ jupyter notebook
 # 1. Data Loading
 The data are from [StatsBomb open-data](https://github.com/statsbomb/open-data) and [Wyscout](https://figshare.com/collections/Soccer_match_event_dataset/4415000/2).
 
-To run the analysis you need to first create the dataset: run the notebooks in numerical order in the notebooks/create-data directory.
+To run the analysis you need to first create the datasets. By running the notebooks in the notebooks/create-data directory (in numerical order).
