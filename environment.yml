@@ -1,21 +1,25 @@
 name: expected-goals
 channels:
   - anaconda
+  - conda-forge
 dependencies:
-  - jupyter
-  - pandas
-  - scipy
-  - seaborn
-  - beautifulsoup4
-  - pyarrow
-  - scikit-learn
-  - pillow
-  - openpyxl
-  - pillow
-  - shapely
-  - requests
+  - anaconda::jupyter
+  - anaconda::pandas
+  - anaconda::scipy
+  - anaconda::seaborn
+  - anaconda::beautifulsoup4
+  - anaconda::pyarrow
+  - anaconda::scikit-learn
+  - anaconda::pillow
+  - anaconda::openpyxl
+  - anaconda::pillow
+  - anaconda::shapely
+  - anaconda::requests
+  - conda-forge::fuzzywuzzy
+  - conda-forge::metaphone
   - pip
   - pip:
       - mplsoccer
       - lightgbm
       - adjustText
+      - fuzzymatcher
