@@ -15,6 +15,7 @@ dependencies:
   - anaconda::pillow
   - anaconda::shapely
   - anaconda::requests
+  - anaconda::statsmodels
   - conda-forge::fuzzywuzzy
   - conda-forge::metaphone
   - pip
