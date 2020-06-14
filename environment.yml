@@ -9,7 +9,6 @@ dependencies:
   - anaconda::seaborn
   - anaconda::beautifulsoup4
   - anaconda::pyarrow
-  - anaconda::scikit-learn
   - anaconda::pillow
   - anaconda::openpyxl
   - anaconda::pillow
@@ -24,3 +23,6 @@ dependencies:
       - lightgbm
       - adjustText
       - fuzzymatcher
+      - scikit-optimize
+      - imbalanced-learn
+      - scikit-learn == 0.23.0
