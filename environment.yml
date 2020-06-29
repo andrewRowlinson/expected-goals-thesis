@@ -27,3 +27,4 @@ dependencies:
       - pdpbox
       - shap
       - scikit-learn == 0.23.0
+      - git+git://github.com/jmetzen/kernel_regression.git
