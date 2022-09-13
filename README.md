@@ -1,19 +1,30 @@
-- # expected-goals-thesis
+# expected-goals-thesis
 A repository for analysis on Expected Goals using StatsBomb and Wyscout data.
 
 # StatsBomb data
 This repository assumes that the [StatsBomb open-data](https://github.com/statsbomb/open-data) has already been cloned to a local directory.
 
+# Versioning
+
+The original thesis was run from a particular [version](https://github.com/statsbomb/open-data/commit/87a5f02d7f526c4fe92909790999da5f26166328) of the data and mplsoccer (my football plotting library).
+The original code is here: https://github.com/andrewRowlinson/expected-goals-thesis/tree/c6945f2919666933bd5e35692f838f85a82073e0
+
+I have updated the code on 2021-09-13 to use the latest available data and mplsoccer 1.1.6. However, I have not updated the thesis document.
+
 # To run the notebooks
 All of the notebooks can be run from an [Anaconda](https://www.anaconda.com/products/individual) environment.
 
-To install the environment yourself use the Anaconda Prompt. Run the following command from the expected-goals directory:
-
+First install mamba, which is faster than Anaconda for these large environments:
 ```
-conda env create -f environment.yml
+conda install mamba -n base -c conda-forge
 ```
 
-Activate the new environment from the prompt:
+Then clone the repository to your local computer. Navigate to the directory and install the dependencies:
+```
+mamba env create -f environment.yml
+```
+
+You can use this environment like standard Anaconda environments:
 
 ```
 conda activate expected-goals

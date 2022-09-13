@@ -1,30 +1,26 @@
 name: expected-goals
 channels:
-  - anaconda
   - conda-forge
 dependencies:
-  - anaconda::jupyter
-  - anaconda::pandas
-  - anaconda::scipy
-  - anaconda::seaborn
-  - anaconda::beautifulsoup4
-  - anaconda::pyarrow
-  - anaconda::pillow
-  - anaconda::openpyxl
-  - anaconda::pillow
-  - anaconda::shapely
-  - anaconda::requests
-  - anaconda::statsmodels
-  - conda-forge::fuzzywuzzy
-  - conda-forge::metaphone
+  - altair
+  - geopandas
+  - jupyterlab
+  - lightgbm
+  - matplotlib
+  - mplsoccer
+  - openpyxl
+  - pandas
+  - pdpbox
+  - pillow
+  - pyarrow
+  - requests
+  - scikit-learn
+  - scipy
+  - seaborn
+  - shap
+  - shapely
+  - statsmodels
   - pip
   - pip:
-      - mplsoccer
-      - lightgbm
       - adjustText
-      - fuzzymatcher
-      - scikit-optimize
-      - pdpbox
-      - shap
-      - scikit-learn == 0.23.0
-      - git+git://github.com/jmetzen/kernel_regression.git
+      - splink

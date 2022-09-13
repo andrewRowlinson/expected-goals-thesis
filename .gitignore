@@ -131,6 +131,7 @@ dmypy.json
 # ignore data files
 *.json
 *.parquet
+*.csv
 
 # saved models
 *.joblib
