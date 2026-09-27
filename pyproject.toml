@@ -1,0 +1,41 @@
+[project]
+name = "expected-goals-thesis"
+version = "2.0.0"
+description = "Expected goals analysis using Hudl StatsBomb and Wyscout open data"
+readme = "README.md"
+license = "MIT"
+authors = [
+  { name = "Andrew Rowlinson", email = "rowlinsonandy@gmail.com" },
+]
+requires-python = ">=3.12"
+dependencies = [
+  "adjusttext",
+  "duckstatsbomb[pandas]>=0.4.0",
+  "geopandas",
+  "jupyterlab",
+  "lightgbm",
+  "matplotlib",
+  "mplsoccer>=1.8.1",
+  "numpy",
+  "openpyxl",
+  "pandas>=3",
+  "pillow",
+  "pyarrow",
+  "requests",
+  "scikit-learn",
+  "scipy",
+  "seaborn",
+  "shap",
+  "shapely",
+  "splink>=4",
+  "tqdm",
+]
+
+[dependency-groups]
+dev = [
+  "nbconvert",
+  "papermill",
+]
+
+[tool.uv]
+package = false
