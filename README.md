@@ -31,6 +31,8 @@ Software used for this update (pinned in `uv.lock`): Python 3.14.6, duckstatsbom
 mplsoccer 1.8.1, pandas 3.0.6, NumPy 2.5.3, scikit-learn 1.9.1, LightGBM 4.7.0, shap 0.52.0, splink 4.0.17,
 GeoPandas 1.1.4, Shapely 2.1.2, Matplotlib 3.11.2, seaborn 0.13.2 and SciPy 1.18.1.
 
+The models now include a gender feature (`female`), as around a quarter of the StatsBomb shots are now from women's competitions. Hudl StatsBomb's [Analytics and modelling in women's football](https://www.hudl.com/blog/analytics-and-modelling-in-womens-football) found that a single model trained on men's and women's data with a gender feature outperformed both a gender-blind model and separate models for each. Here the gender-blind model over-predicted women's shots from 6-11m and from 30m+, and under-predicted their headers.
+
 # To run the notebooks
 The dependencies are managed with [uv](https://docs.astral.sh/uv/). Clone the repository to your local computer, navigate
 to the directory and install the dependencies (this creates a `.venv` directory):

@@ -12,6 +12,7 @@ dependencies = [
   "adjusttext",
   "duckstatsbomb[pandas]>=0.4.0",
   "geopandas",
+  "ipywidgets>=8.1.9",
   "jupyterlab",
   "lightgbm",
   "matplotlib",
@@ -27,7 +28,7 @@ dependencies = [
   "seaborn",
   "shap",
   "shapely",
-  "splink>=4",
+  "splink>=4,<5",
   "tqdm",
 ]
 
