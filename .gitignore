@@ -135,3 +135,10 @@ dmypy.json
 
 # saved models
 *.joblib
+
+# duckstatsbomb cache and DuckDB databases
+statsbomb_cache/
+*.ducked
+*.duckdb.wal
+
+*.DS_Store
